@@ -36,7 +36,27 @@ const CONFIG = {
   MAGZINE_SOCIAL_CARD_TITLE_3: '点击加入社群',
   MAGZINE_SOCIAL_CARD_URL: 'https://docs.tangly1024.com/article/chat-community',
 
-  
+  MAGZINE_FOOTER_LINKS: [
+{
+  name: '友情链接',
+  menus: [
+    {
+      title: '行胜子',
+      href: '<https://xingshengzi.cn>'
+    },
+    {
+      title: 'NotionNext',
+      href: '<https://www.tangly1024.com>'
+    }
+  ]
+},
+
+
+],
+    
+
+
+    
   // 旧版本顶部菜单
   MAGZINE_MENU_CATEGORY: true, // 显示分类
   MAGZINE_MENU_TAG: true, // 显示标签
