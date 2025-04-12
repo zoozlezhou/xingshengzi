@@ -26,6 +26,12 @@ const BLOG = {
   ENABLE_RSS: process.env.NEXT_PUBLIC_ENABLE_RSS || true, // 是否开启RSS订阅功能
 
   // 其它复杂配置
+ 
+<script src="https://agi-dev-platform-web.bj.bcebos.com/ai_apaas/embed/output/embedLiteSDK.js?responseExpires=0"></script>
+<script>
+    new EmbedLiteSDK({appId: '75fb7093-ab79-4ba6-ae5c-f2a5a8adde32', code: 'embedMD8OPd3KhIQOIVFgEqIM'});
+</script>
+  
   // 原配置文件过长，且并非所有人都会用到，故此将配置拆分到/conf/目录下, 按需找到对应文件并修改即可
   ...require('./conf/comment.config'), // 评论插件
   ...require('./conf/contact.config'), // 作者联系方式配置
